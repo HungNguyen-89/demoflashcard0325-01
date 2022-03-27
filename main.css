@@ -12,7 +12,7 @@ body {
 
 #background {
   margin: auto;
-  top: 220px;
+  top: 150px;
   width: 500px;
   height: 100px;
   position: relative;
@@ -31,7 +31,7 @@ body {
 }
 
 .card {
-  margin: 100px auto 0;
+  margin: auto;
   width: 400px;
   height: 500px;
   perspective: 1000px;
@@ -63,11 +63,11 @@ body {
 }
 
 .card__face--front {
-  background-image: linear-gradient(to bottom right, var(--primary), var(--secondary));
+  /* background-image: linear-gradient(to bottom right, var(--primary), var(--secondary)); */
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: lightcyan;
+  background-color:blueviolet;
 }
 
 #txtFront {
@@ -82,6 +82,7 @@ body {
   font-family: Arial;
   font-weight: bold;
   text-align: center;
+  color: white;
 }
 
 #imageBack {
@@ -97,7 +98,7 @@ body {
 
 #txtBack {
   margin: auto;
-  top: 45px;
+  top: 65px;
   width: 300px;
   height: 50px;
   position: relative;
